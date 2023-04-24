@@ -1,0 +1,19 @@
+pwd = mirar en que directorio estoy
+
+ls -al = ver todas las carpetas 
+
+cd = se usa para acceder a una carpeta 
+
+ls = para mirar lo que trae 
+
+Crear llaves
+
+git config -l = ver la configuracion de git nombre, usuario 
+
+git config --global user.email"eee" cambiar el email
+
+la llave se ejecuta desde CD y no desde el proyecto 
+
+ssh-keygen -t rsa -b 4096 -C "eivarbc@gmail.com"  = crear una llave publica y privada
+
+se genra la llave y se encuentra en .ssh la carpeta 
