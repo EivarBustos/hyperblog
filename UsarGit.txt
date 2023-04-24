@@ -17,3 +17,93 @@ la llave se ejecuta desde CD y no desde el proyecto
 ssh-keygen -t rsa -b 4096 -C "eivarbc@gmail.com"  = crear una llave publica y privada
 
 se genra la llave y se encuentra en .ssh la carpeta 
+
+se abre la llave publica, se copia 
+
+ eval $(ssh-agent -s) = se corre para verificar que un programa nececsario se este ejecutando Agent pid 1434
+
+ ssh-add ~/.ssh/id_rsa guardar la llave en git 
+
+
+  git remote add origin https://github.com/EivarBustos/hyperblog.git unir git con github
+  git remote verificar origin 
+  git remote -v para que salga fetch traer yy push enviar 
+
+  luego usamos 
+  git push origin master enviar el proyecto a git hub
+
+  ###########################################################33
+  Pasar la rama master a main
+  ##############################################################
+
+  git branch -m main  indicamos que es la rama actual 
+  git push origin main 
+  git pull origin main para que permita 
+  git pull origin main --allow-unrelated-histories permite fusionar lo que hay alla con la rama local 
+
+  ls -al verifica que todo este correcto 
+  git status 
+
+  git push origin main  se hace de nuevo para que ahora si funcione 
+
+  listo quedo conectado al hacer algun camhbio en GitHub 
+  se corre git pull origin main para que se actualice 
+
+  ####################################333
+  Al hacer un cambio en el archivo desde mi pc 
+  ###########################################
+ git pull origin main 
+ git staus 
+ git diff 
+ git commit -am "Cambio en el titulo html "
+git pull origin main
+git push origin main para enviar los cambios 
+
+
+##################################3333333
+ver las ramas 
+#############################333333333333333
+git log --all --graph 
+otra forma 
+git log --all --graph --decorate --oneline 
+
+#######################################3333333333
+USAR ALIAS PARA COMANDOS LARGOS 
+######################################3333333333
+alias rama="git log --all --graph --decorate --oneline"
+
+
+###########################################################33
+Añadir Tags o versiones 
+################################################################3
+git tag -a Version0.1 -m "Resultado de las primeras clases del curso" 342183a
+
+git tag git show-ref --tags
+
+
+enviar al GitHub 
+git pull origin main = trae todo lo que hay en internet 
+git push --tags = envia los tags a github 
+
+############
+borrar un tag 
+###########
+git tag = verifica nombres de tags 
+git tag -d nimbre del tag 
+
+#####################33
+ahora borrarlo definitivamente de Git Hub 
+#######################333
+git push origin :refs/tags/Version0.1
+
+
+
+
+
+
+
+
+
+ 
+
+ 
