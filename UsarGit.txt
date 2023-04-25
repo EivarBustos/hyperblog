@@ -96,6 +96,46 @@ ahora borrarlo definitivamente de Git Hub
 #######################333
 git push origin :refs/tags/Version0.1
 
+##########################################333333333
+ramas
+##############################################33
+git show-branch --all  ver todos los detalles de las ramas 
+gitk ver detalladamente los cambios 
+
+
+llevar la rama cabecera asi se suben las ramas a GitHu 
+
+git pull origin main 
+git checkout cabecera
+git push origin cabecera
+
+para salir de nuevo es 
+git checkout main 
+git branch header version mas reciente 
+git branch footer version de nueva rama 
+git push origin header 
+git push origin footer
+
+##############################################33333
+Master se envia lo que estamos seguros que va a produccion
+###############################################33333
+ git checkout header
+ git add imagenes/imagen.jpg
+ git status
+ git add .
+ git status
+ git commit -m "Logo de header"
+ git pull origin header
+git push origin header
+
+
+
+
+
+
+
+
+
 
 
 
