@@ -8,3 +8,4 @@ Curso de Git y GitHub
 *Holi mundo 
 *creado en platzi
 *incluye un saludo 
+*disponible para todos 
