@@ -7,3 +7,4 @@ Curso de Git y GitHub
 *Todos los cmmandos son buenos 
 *Holi mundo 
 *creado en platzi
+*incluye un saludo 
