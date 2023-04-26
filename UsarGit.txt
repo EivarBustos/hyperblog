@@ -165,6 +165,15 @@ hacer add, commit, push
 hacer un pull request
 Esperar :v
 
+##############################################333
+EDITAR README.MD
+############################################333333333
+
+https://pandao.github.io/editor.md/en.htm
+
+#############################################33333333
+https://pages.github.com/
+###############################################3
 
 
 
